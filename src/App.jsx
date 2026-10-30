@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 import Home from './pages/Home';
 import AboutAll from './pages/AboutAll';
@@ -14,6 +15,7 @@ import Donate from './pages/Donate';
 function App() {
   return (
     <div className="flex flex-col bg-[#F3E9D4] min-h-screen pt-24 text-[#16221A]">
+       <ScrollToTop />
 
       <Navbar />
 
