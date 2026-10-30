@@ -34,11 +34,11 @@ function Navbar() {
           <Link to="/" className="hover:text-[#C3601E] transition-colors">Home</Link>
           <Link to="/aboutall" className="hover:text-[#C3601E] transition-colors">About</Link>
           <Link to="/allprograms" className="hover:text-[#C3601E] transition-colors">Programs</Link>
-          <Link to="/contact" className="hover:text-[#C3601E] transition-colors">Contact</Link>
+          <Link to="/partners" className="hover:text-[#C3601E] transition-colors">Partner</Link>
         </nav>
 
         {/* Action Button */}
-        <Link to="/contact">
+        <Link to="/donate">
         <button className="text-md font-medium bg-[#C3601E] px-4 py-2 text-white hover:bg-[#a84f16] transition-colors rounded-md cursor-pointer">
           Donate
         </button>
@@ -52,7 +52,7 @@ function Navbar() {
           <Link to="/" onClick={() => setIsOpen(false)} className="py-2 hover:bg-[#C3601E]/10 rounded-sm">Home</Link>
           <Link to="/aboutall" onClick={() => setIsOpen(false)} className="py-2 hover:bg-[#C3601E]/10 rounded-sm">About</Link>
           <Link to="/allprograms" onClick={() => setIsOpen(false)} className="py-2 hover:bg-[#C3601E]/10 rounded-sm">Programs</Link>
-          <Link to="/contact" onClick={() => setIsOpen(false)} className="py-2 hover:bg-[#C3601E]/10 rounded-sm">Contact</Link>
+          <Link to="/partners" onClick={() => setIsOpen(false)} className="py-2 hover:bg-[#C3601E]/10 rounded-sm">Partner</Link>
         </div>
       )}
     </div>
